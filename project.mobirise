@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "GEM Le Tremplin v1",
+    "name": "GEM Le Tremplin",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
@@ -68,10 +68,15 @@
       }
     ],
     "uniqCompNum": 30,
-    "versionPublish": "4.8.2",
+    "versionPublish": "4.9.7",
     "screenshot": "screenshot.png",
-    "favicon": "@PROJECT_PATH@/assets/images/small-logo-128x128.png",
-    "noImageResize": ""
+    "favicon": "",
+    "noImageResize": "",
+    "siteUrl": "http://gemletremplin.fr",
+    "sitemapSwitcherAuto": "on",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
+    "robotsSwitcher": "on",
+    "sitemapSwitcher": "on"
   },
   "pages": {
     "index.html": {
