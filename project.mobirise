@@ -73,7 +73,7 @@
     "favicon": "",
     "noImageResize": "",
     "siteUrl": "http://gemletremplin.fr",
-    "sitemapSwitcherAuto": "on",
+    "sitemapSwitcherAuto": "",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
     "robotsSwitcher": "on",
     "sitemapSwitcher": "on"
