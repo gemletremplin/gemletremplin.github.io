@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta property="og:title" content="GEM Le Tremplin | Blog">
     
     <title>GEM Le Tremplin | Blog</title>
     <link rel="alternate" type="application/rss+xml" title="Blog to GEM Le Tremplin" href="/post/feed.xml" />
@@ -37,11 +38,13 @@
             <i class="envelope open icon"></i> Contact
         </a>
         
-        
         <a class="active item" href="/post/">
             <i class="book alternate icon"></i> Blog
         </a>
         
+        <a class="item" href="/photo/">
+            <i class="calendar alternate icon"></i> Photos
+        </a>
         
     </div>
 </div>
@@ -54,7 +57,7 @@
 <h2 class="ui header">novembre 2022</h2>
     <div class="ui relaxed divided list">
     
-        <a class="item" href="/post/concert-pierre-sicaud-aznavour-25-11-2022.html">
+        <a class="item" href="/post/2022-11-26-concert-au-profit-du-gem-le-tremplin.html">
             <i class="large music middle aligned icon"></i>
             <div class="content">
                 <div class="header">Concert Pierre Sicaud chante Aznavour</div>
@@ -69,7 +72,7 @@
             </div>
         </a>
     
-        <a class="item" href="/post/creation-semaine-de-l-autisme-2023.html">
+        <a class="item" href="/post/2022-11-26-semaine-de-l-autisme-2023.html">
             <i class="large universal access middle aligned icon"></i>
             <div class="content">
                 <div class="header">Création de la semaine de l&#39;autisme 2023, départ</div>
@@ -95,6 +98,10 @@
         src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
         integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA="
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js"></script>
+    <script>
+        moment.locale('fr')
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.4/umd/photoswipe.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.4/umd/photoswipe-lightbox.umd.min.js"></script>
     <script type="module">
@@ -102,8 +109,8 @@
             gallery: '.pswp-gallery',
             children: 'a',
             pswpModule: PhotoSwipe,
-        });
-        lightbox.init();
+        })
+        lightbox.init()
     </script>
     
 </body>
